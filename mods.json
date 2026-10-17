@@ -3,7 +3,7 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.4",
   "loader": "forge",
-  "revision": 4,
+  "revision": 5,
   "mods": [
     {
       "name": "JourneyMap",
@@ -14,16 +14,6 @@
       "name": "Clumps",
       "project": "clumps",
       "version": "22.0.0.1"
-    },
-    {
-      "name": "ImmediatelyFast",
-      "project": "immediatelyfast",
-      "version": "1.8.7+1.21.4-forge"
-    },
-    {
-      "name": "Entity Culling",
-      "project": "entityculling",
-      "version": "1.11.3"
     }
   ]
 }
