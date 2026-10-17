@@ -3,7 +3,7 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.11",
   "loader": "forge",
-  "revision": 1,
+  "revision": 2,
   "scope": "server-only",
   "description": "Mods adicionales solo del servidor. No sustituye mods.json ni debe usarse como catálogo de clientes de ModsEx.",
   "mods": [
@@ -15,6 +15,15 @@
       "side": "server",
       "file": "adaptive_performance_tweaks-forge-1.21.11-12.10.0.jar",
       "aternosUrl": "https://aternos.org/addons/a/modrinthforge/kLawTYXp"
+    },
+    {
+      "name": "Skin Restorer",
+      "project": "skinrestorer",
+      "version": "2.11.0+1.21.11-forge",
+      "side": "server",
+      "file": "skinrestorer-2.11.0+1.21.11-forge.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthforge/ghrZDhGW",
+      "notes": "Permite skins desde Mojang, Ely.by o URL directa de imagen. El autor no admite sistemas de skins de terceros como TLauncher."
     }
   ]
 }
