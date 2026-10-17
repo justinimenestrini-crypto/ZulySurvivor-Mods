@@ -3,7 +3,7 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.11",
   "loader": "forge",
-  "revision": 10,
+  "revision": 11,
   "mods": [
     {
       "name": "JourneyMap",
@@ -35,6 +35,13 @@
       "project": "player-emotes",
       "version": "2.0.0+1.21.11-forge",
       "versionId": "QP71Yj6I"
+    },
+    {
+      "name": "Inventory HUD+",
+      "project": "inventoryhudplus",
+      "version": "3.4.29",
+      "versionId": "IjQ3mFnq",
+      "side": "client"
     }
   ]
 }
