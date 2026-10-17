@@ -3,7 +3,7 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.11",
   "loader": "forge",
-  "revision": 8,
+  "revision": 9,
   "mods": [
     {
       "name": "JourneyMap",
