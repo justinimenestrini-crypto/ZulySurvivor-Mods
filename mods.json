@@ -3,7 +3,7 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.11",
   "loader": "forge",
-  "revision": 11,
+  "revision": 12,
   "mods": [
     {
       "name": "JourneyMap",
@@ -42,6 +42,23 @@
       "version": "3.4.29",
       "versionId": "IjQ3mFnq",
       "side": "client"
+    },
+    {
+      "name": "Afterburner: Optimized",
+      "project": "afterburner-optimized",
+      "version": "0.1.27",
+      "versionId": "NQlPiQyM",
+      "side": "client",
+      "requiresForge": "61.2.0 o posterior",
+      "notes": "Optimización de renderizado y memoria. Compatibilidad declarada y archivos verificados; combinación no probada dentro de Minecraft."
+    },
+    {
+      "name": "FPS Reducer",
+      "project": "fps-reducer",
+      "version": "1.21.11-2.15",
+      "versionId": "ywUQMPC0",
+      "side": "client",
+      "notes": "Reduce consumo de CPU/GPU al estar inactivo o minimizar. No aumenta FPS durante el juego activo."
     }
   ]
 }
