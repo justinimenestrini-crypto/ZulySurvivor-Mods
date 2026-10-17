@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "server": "ZulySurvivor.aternos.me",
+  "minecraft": "1.21.11",
+  "loader": "forge",
+  "revision": 1,
+  "scope": "server-only",
+  "description": "Mods adicionales solo del servidor. No sustituye mods.json ni debe usarse como catálogo de clientes de ModsEx.",
+  "mods": [
+    {
+      "name": "Adaptive Performance Tweaks",
+      "project": "adaptive-performance-tweaks",
+      "version": "12.10.0",
+      "versionId": "Bhn2ka1K",
+      "side": "server",
+      "file": "adaptive_performance_tweaks-forge-1.21.11-12.10.0.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthforge/kLawTYXp"
+    }
+  ]
+}
