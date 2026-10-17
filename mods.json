@@ -3,7 +3,7 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.4",
   "loader": "forge",
-  "revision": 6,
+  "revision": 7,
   "mods": [
     {
       "name": "JourneyMap",
@@ -19,6 +19,16 @@
       "name": "Extended ItemView (EIV)",
       "project": "eiv",
       "version": "3.0.2+1.21.4"
+    },
+    {
+      "name": "Balm",
+      "project": "balm",
+      "version": "21.4.41+forge-1.21.4"
+    },
+    {
+      "name": "Waystones",
+      "project": "waystones",
+      "version": "21.4.19+forge-1.21.4"
     }
   ]
 }
