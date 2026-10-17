@@ -1,34 +1,34 @@
 {
   "schema": 1,
   "server": "ZulySurvivor.aternos.me",
-  "minecraft": "1.21.4",
+  "minecraft": "1.21.11",
   "loader": "forge",
-  "revision": 7,
+  "revision": 8,
   "mods": [
     {
       "name": "JourneyMap",
       "project": "journeymap",
-      "version": "1.21.4-6.0.0-beta.47+forge"
+      "version": "1.21.11-6.0.0+forge"
     },
     {
       "name": "Clumps",
       "project": "clumps",
-      "version": "22.0.0.1"
+      "version": "29.0.0.1"
     },
     {
       "name": "Extended ItemView (EIV)",
       "project": "eiv",
-      "version": "3.0.2+1.21.4"
+      "version": "6.1.0+1.21.11"
     },
     {
       "name": "Balm",
       "project": "balm",
-      "version": "21.4.41+forge-1.21.4"
+      "version": "21.11.9.1+forge-1.21.11"
     },
     {
       "name": "Waystones",
       "project": "waystones",
-      "version": "21.4.19+forge-1.21.4"
+      "version": "21.11.9+forge-1.21.11"
     }
   ]
 }
