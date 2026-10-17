@@ -3,7 +3,7 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.4",
   "loader": "forge",
-  "revision": 5,
+  "revision": 6,
   "mods": [
     {
       "name": "JourneyMap",
@@ -14,6 +14,11 @@
       "name": "Clumps",
       "project": "clumps",
       "version": "22.0.0.1"
+    },
+    {
+      "name": "Extended ItemView (EIV)",
+      "project": "eiv",
+      "version": "3.0.2+1.21.4"
     }
   ]
 }
