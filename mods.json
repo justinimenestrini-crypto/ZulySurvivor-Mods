@@ -3,7 +3,7 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.11",
   "loader": "forge",
-  "revision": 9,
+  "revision": 10,
   "mods": [
     {
       "name": "JourneyMap",
@@ -29,6 +29,12 @@
       "name": "Waystones",
       "project": "waystones",
       "version": "21.11.9+forge-1.21.11"
+    },
+    {
+      "name": "Player Emotes",
+      "project": "player-emotes",
+      "version": "2.0.0+1.21.11-forge",
+      "versionId": "QP71Yj6I"
     }
   ]
 }
