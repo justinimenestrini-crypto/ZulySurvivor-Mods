@@ -3,31 +3,12 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.4",
   "loader": "forge",
-  "revision": 1,
+  "revision": 2,
   "mods": [
     {
-      "name": "JEI",
-      "project": "jei"
-    },
-    {
       "name": "JourneyMap",
-      "project": "journeymap"
-    },
-    {
-      "name": "Clumps",
-      "project": "clumps"
-    },
-    {
-      "name": "Waystones",
-      "project": "waystones"
-    },
-    {
-      "name": "Nature's Compass",
-      "project": "natures-compass"
-    },
-    {
-      "name": "Explorer's Compass",
-      "project": "explorers-compass"
+      "project": "journeymap",
+      "version": "1.21.4-6.0.0-beta.47+forge"
     }
   ]
 }
