@@ -3,7 +3,7 @@
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.11",
   "loader": "forge",
-  "revision": 14,
+  "revision": 15,
   "mods": [
     {
       "name": "JourneyMap",
@@ -50,14 +50,6 @@
       "versionId": "ywUQMPC0",
       "side": "client",
       "notes": "Reduce consumo de CPU/GPU al estar inactivo o minimizar. No aumenta FPS durante el juego activo."
-    },
-    {
-      "name": "Punchy! - First person animations",
-      "project": "punchy-fpa",
-      "version": "2.8f",
-      "versionId": "yF1cEN8Z",
-      "side": "client",
-      "notes": "Animaciones en primera persona. Solo PC; no instalar en Aternos. Requiere Forge 61.0.1 o superior para Minecraft 1.21.11. No es un mod para aumentar FPS."
     }
   ]
 }
