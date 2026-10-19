@@ -2,7 +2,7 @@
 
 ## Estado
 
-El catálogo del PC está publicado para Fabric 1.21.11. El propietario cambió Aternos a Fabric Loader 0.19.5. Se instalaron y verificaron los 12 archivos de `server-mods.json` en la carpeta real del servidor; no quedaron JAR Forge. El arranque está pendiente de que el propietario acepte el EULA de Minecraft que Aternos muestra al iniciar. No se confirmó todavía un arranque correcto.
+El catálogo del PC está publicado para Fabric 1.21.11. El propietario cambió Aternos a Fabric Loader 0.19.5. Se instalaron y verificaron los 12 archivos de `server-mods.json` en la carpeta real del servidor; no quedaron JAR Forge. El propietario autorizó aceptar el EULA y se verificó el servidor en línea. El registro indica creación de un mundo nuevo tras la reinstalación; no se restauró el respaldo anterior.
 
 Usar Java 21 y Fabric Loader 0.18.4 o superior; Aternos ofrece 0.19.5 como recomendada para Minecraft 1.21.11.
 
@@ -49,4 +49,4 @@ La lista `server-mods.json` contiene los 12 archivos Fabric verificados en Atern
 
 Se consultaron versiones estables de Modrinth para Fabric 1.21.11; se descargaron sin ejecutarlos los JAR seleccionados para comprobar SHA-512, `fabric.mod.json`, Java, Loader, dependencias y conflictos declarados. Se comprobó que el planificador de ModsEx resuelve 17 archivos únicos del catálogo y excluye la lista del servidor de las descargas del PC.
 
-También se comprobó la presencia de los 12 JAR del servidor en Aternos. El intento de inicio se detuvo en la aceptación del EULA y no se aceptaron términos en nombre del propietario. Estas comprobaciones no equivalen a un arranque correcto ni a una medición de FPS en los equipos de los jugadores.
+También se comprobó la presencia de los 12 JAR del servidor en Aternos. Tras la autorización del propietario para aceptar el EULA, el servidor inició y Aternos mostró «En línea». Se observaron las inicializaciones de Lithium, Krypton y Adaptive Performance Tweaks; este último desactivó su función de orbes por la presencia de Clumps. Esto no equivale a una prueba de conexión desde TLauncher ni a una medición de FPS en los equipos de los jugadores.
