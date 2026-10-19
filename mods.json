@@ -8,7 +8,7 @@
     "java": ">=21"
   },
   "migrationNotes": "Utiliza un perfil Fabric independiente. El catálogo no elimina archivos Forge ya descargados. El servidor debe migrarse por separado.",
-  "revision": 16,
+  "revision": 17,
   "mods": [
     {
       "name": "Fabric API",
@@ -46,13 +46,6 @@
       "project": "waystones",
       "version": "21.11.9+fabric-1.21.11",
       "versionId": "MydMW2TT",
-      "side": "both"
-    },
-    {
-      "name": "Player Emotes",
-      "project": "player-emotes",
-      "version": "2.0.1+1.21.11-fabric",
-      "versionId": "ETKRmzOX",
       "side": "both"
     },
     {
