@@ -8,7 +8,7 @@
     "java": ">=21"
   },
   "migrationNotes": "Utiliza un perfil Fabric independiente. El catálogo no elimina archivos Forge ya descargados. El servidor debe migrarse por separado.",
-  "revision": 17,
+  "revision": 18,
   "mods": [
     {
       "name": "Fabric API",
@@ -121,6 +121,14 @@
       "project": "cloth-config",
       "version": "21.11.153+fabric",
       "versionId": "xuX40TN5"
+    },
+    {
+      "name": "Punchy! - First Person Animations",
+      "project": "punchy-fpa",
+      "version": "2.8g",
+      "versionId": "SgU0tq2l",
+      "side": "client",
+      "notes": "Animaciones en primera persona. Requiere Fabric API y Java 21. No es un mod de rendimiento."
     }
   ]
 }
