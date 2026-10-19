@@ -7,11 +7,11 @@
     "fabricLoader": ">=0.18.4",
     "java": ">=21"
   },
-  "migrationNotes": "Utiliza un perfil Fabric independiente. El catálogo no elimina archivos Forge ya descargados. El servidor debe migrarse por separado.",
-  "revision": 3,
+  "migrationNotes": "La reinstalación de software la realizó el propietario. Los archivos Forge ya no estaban en mods. No se restauró ningún respaldo ni se modificaron las opciones de autenticación.",
+  "revision": 4,
   "scope": "server-only",
-  "deploymentStatus": "pending-loader-migration",
-  "description": "Lista completa prevista para Fabric. Pendiente de aplicar en Aternos, que al preparar este catálogo seguía usando Forge. No usar como catálogo del PC.",
+  "deploymentStatus": "installed-awaiting-eula",
+  "description": "Doce archivos Fabric verificados en Aternos. Inicio pendiente de aceptación del EULA de Minecraft por el propietario. No usar este catálogo para descargar mods en los PC.",
   "mods": [
     {
       "name": "Fabric API",
@@ -19,7 +19,8 @@
       "version": "0.141.6+1.21.11",
       "versionId": "6qAuTtLR",
       "side": "server",
-      "file": "fabric-api-0.141.6+1.21.11.jar"
+      "file": "fabric-api-0.141.6+1.21.11.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/P7dR8mSH"
     },
     {
       "name": "JourneyMap",
@@ -27,7 +28,8 @@
       "version": "1.21.11-6.0.0+fabric",
       "versionId": "6Np0S5K2",
       "side": "server",
-      "file": "journeymap-fabric-1.21.11-6.0.0.jar"
+      "file": "journeymap-fabric-1.21.11-6.0.0.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/lfHFW1mp"
     },
     {
       "name": "Clumps",
@@ -35,7 +37,8 @@
       "version": "29.0.0.1",
       "versionId": "OgBE8Rz4",
       "side": "server",
-      "file": "Clumps-fabric-1.21.11-29.0.0.1.jar"
+      "file": "Clumps-fabric-1.21.11-29.0.0.1.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/Wnxd13zP"
     },
     {
       "name": "Extended ItemView (EIV)",
@@ -43,7 +46,8 @@
       "version": "6.1.0+1.21.11",
       "versionId": "us2tguk9",
       "side": "server",
-      "file": "eiv-fabric-6.1.0+1.21.11.jar"
+      "file": "eiv-fabric-6.1.0+1.21.11.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/zAvmADy9"
     },
     {
       "name": "Balm",
@@ -51,7 +55,8 @@
       "version": "21.11.9.1+fabric-1.21.11",
       "versionId": "5POKgjJn",
       "side": "server",
-      "file": "balm-fabric-1.21.11-21.11.9.1.jar"
+      "file": "balm-fabric-1.21.11-21.11.9.1.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/MBAkmtvl"
     },
     {
       "name": "Waystones",
@@ -59,7 +64,8 @@
       "version": "21.11.9+fabric-1.21.11",
       "versionId": "MydMW2TT",
       "side": "server",
-      "file": "waystones-fabric-1.21.11-21.11.9.jar"
+      "file": "waystones-fabric-1.21.11-21.11.9.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/LOpKHB2A"
     },
     {
       "name": "Player Emotes",
@@ -67,7 +73,8 @@
       "version": "2.0.1+1.21.11-fabric",
       "versionId": "ETKRmzOX",
       "side": "server",
-      "file": "playeremotes-fabric-2.0.1+1.21.11.jar"
+      "file": "playeremotes-fabric-2.0.1+1.21.11.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/TfUCUpDy"
     },
     {
       "name": "Skin Restorer",
@@ -76,7 +83,8 @@
       "versionId": "S6TdblIH",
       "side": "server",
       "file": "skinrestorer-2.11.0+1.21.11-fabric.jar",
-      "notes": "Skins en servidor; el autor no admite sistemas de skins de terceros como TLauncher."
+      "notes": "Skins en servidor; el autor no admite sistemas de skins de terceros como TLauncher.",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/ghrZDhGW"
     },
     {
       "name": "Adaptive Performance Tweaks",
@@ -84,7 +92,8 @@
       "version": "12.10.0",
       "versionId": "hjBTT5Gn",
       "side": "server",
-      "file": "adaptive_performance_tweaks-fabric-1.21.11-12.10.0.jar"
+      "file": "adaptive_performance_tweaks-fabric-1.21.11-12.10.0.jar",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/kLawTYXp"
     },
     {
       "name": "Lithium",
@@ -93,7 +102,8 @@
       "versionId": "Ow7wA0kG",
       "side": "server",
       "file": "lithium-fabric-0.21.4+mc1.21.11.jar",
-      "notes": "Optimiza la lógica del juego; útil en cliente y servidor de forma independiente."
+      "notes": "Optimiza la lógica del juego; útil en cliente y servidor de forma independiente.",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/gvQqBUqZ"
     },
     {
       "name": "FerriteCore",
@@ -102,7 +112,8 @@
       "versionId": "Ii0gP3D8",
       "side": "server",
       "file": "ferritecore-8.2.0-fabric.jar",
-      "notes": "Reduce uso de memoria; se puede usar de forma independiente en cliente y servidor."
+      "notes": "Reduce uso de memoria; se puede usar de forma independiente en cliente y servidor.",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/uXXizFIs"
     },
     {
       "name": "Krypton",
@@ -111,7 +122,9 @@
       "versionId": "O9LmWYR7",
       "side": "server",
       "file": "krypton-0.2.10.jar",
-      "notes": "Optimiza la red. No garantiza aumento de FPS."
+      "notes": "Optimiza la red. No garantiza aumento de FPS.",
+      "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/fQEb0iXm"
     }
-  ]
+  ],
+  "serverLoader": "0.19.5"
 }
