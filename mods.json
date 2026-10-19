@@ -2,54 +2,132 @@
   "schema": 1,
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.11",
-  "loader": "forge",
-  "revision": 15,
+  "loader": "fabric",
+  "requirements": {
+    "fabricLoader": ">=0.18.4",
+    "java": ">=21"
+  },
+  "migrationNotes": "Utiliza un perfil Fabric independiente. El catálogo no elimina archivos Forge ya descargados. El servidor debe migrarse por separado.",
+  "revision": 16,
   "mods": [
+    {
+      "name": "Fabric API",
+      "project": "fabric-api",
+      "version": "0.141.6+1.21.11",
+      "versionId": "6qAuTtLR"
+    },
     {
       "name": "JourneyMap",
       "project": "journeymap",
-      "version": "1.21.11-6.0.0+forge"
+      "version": "1.21.11-6.0.0+fabric",
+      "versionId": "6Np0S5K2"
     },
     {
       "name": "Clumps",
       "project": "clumps",
-      "version": "29.0.0.1"
+      "version": "29.0.0.1",
+      "versionId": "OgBE8Rz4"
     },
     {
       "name": "Extended ItemView (EIV)",
       "project": "eiv",
-      "version": "6.1.0+1.21.11"
+      "version": "6.1.0+1.21.11",
+      "versionId": "us2tguk9",
+      "side": "both"
     },
     {
       "name": "Balm",
       "project": "balm",
-      "version": "21.11.9.1+forge-1.21.11"
+      "version": "21.11.9.1+fabric-1.21.11",
+      "versionId": "5POKgjJn"
     },
     {
       "name": "Waystones",
       "project": "waystones",
-      "version": "21.11.9+forge-1.21.11"
+      "version": "21.11.9+fabric-1.21.11",
+      "versionId": "MydMW2TT",
+      "side": "both"
     },
     {
       "name": "Player Emotes",
       "project": "player-emotes",
-      "version": "2.0.0+1.21.11-forge",
-      "versionId": "QP71Yj6I"
+      "version": "2.0.1+1.21.11-fabric",
+      "versionId": "ETKRmzOX",
+      "side": "both"
     },
     {
-      "name": "Inventory HUD+",
+      "name": "InventoryHUD+",
       "project": "inventoryhudplus",
       "version": "3.4.29",
-      "versionId": "IjQ3mFnq",
+      "versionId": "mZy4fW0C",
       "side": "client"
     },
     {
       "name": "FPS Reducer",
       "project": "fps-reducer",
       "version": "1.21.11-2.15",
-      "versionId": "ywUQMPC0",
+      "versionId": "4r2DHa7r",
       "side": "client",
-      "notes": "Reduce consumo de CPU/GPU al estar inactivo o minimizar. No aumenta FPS durante el juego activo."
+      "notes": "Ahorra recursos durante inactividad; no aumenta FPS al jugar."
+    },
+    {
+      "name": "Sodium",
+      "project": "sodium",
+      "version": "mc1.21.11-0.8.14-fabric",
+      "versionId": "rkdTcxoT",
+      "side": "client",
+      "notes": "Optimiza el renderizado del PC. No instalar en Aternos ni combinar con OptiFine/OptiFabric, Embeddium o VulkanMod."
+    },
+    {
+      "name": "Lithium",
+      "project": "lithium",
+      "version": "mc1.21.11-0.21.4-fabric",
+      "versionId": "Ow7wA0kG",
+      "notes": "Optimiza la lógica del juego; útil en cliente y servidor de forma independiente."
+    },
+    {
+      "name": "FerriteCore",
+      "project": "ferrite-core",
+      "version": "8.2.0-fabric",
+      "versionId": "Ii0gP3D8",
+      "notes": "Reduce uso de memoria; se puede usar de forma independiente en cliente y servidor."
+    },
+    {
+      "name": "ImmediatelyFast",
+      "project": "immediatelyfast",
+      "version": "1.14.3+1.21.11-fabric",
+      "versionId": "4EwhsTu7",
+      "side": "client",
+      "notes": "Optimiza el renderizado inmediato del cliente."
+    },
+    {
+      "name": "More Culling",
+      "project": "moreculling",
+      "version": "1.6.2",
+      "versionId": "wOzykoLV",
+      "side": "client",
+      "notes": "Evita dibujar ciertas caras ocultas. Requiere Cloth Config; esta versión admite Sodium 0.8.14."
+    },
+    {
+      "name": "BadOptimizations",
+      "project": "badoptimizations",
+      "version": "2.4.1",
+      "versionId": "Q3Dusz2j",
+      "side": "client",
+      "notes": "Reduce trabajo innecesario en el cliente; no sustituye Sodium."
+    },
+    {
+      "name": "Krypton",
+      "project": "krypton",
+      "version": "0.2.10",
+      "versionId": "O9LmWYR7",
+      "notes": "Optimiza la red. No garantiza aumento de FPS."
+    },
+    {
+      "name": "Cloth Config API",
+      "project": "cloth-config",
+      "version": "21.11.153+fabric",
+      "versionId": "xuX40TN5"
     }
   ]
 }

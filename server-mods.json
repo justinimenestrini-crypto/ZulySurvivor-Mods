@@ -2,28 +2,116 @@
   "schema": 1,
   "server": "ZulySurvivor.aternos.me",
   "minecraft": "1.21.11",
-  "loader": "forge",
-  "revision": 2,
+  "loader": "fabric",
+  "requirements": {
+    "fabricLoader": ">=0.18.4",
+    "java": ">=21"
+  },
+  "migrationNotes": "Utiliza un perfil Fabric independiente. El catálogo no elimina archivos Forge ya descargados. El servidor debe migrarse por separado.",
+  "revision": 3,
   "scope": "server-only",
-  "description": "Mods adicionales solo del servidor. No sustituye mods.json ni debe usarse como catálogo de clientes de ModsEx.",
+  "deploymentStatus": "pending-loader-migration",
+  "description": "Lista completa prevista para Fabric. Pendiente de aplicar en Aternos, que al preparar este catálogo seguía usando Forge. No usar como catálogo del PC.",
   "mods": [
     {
-      "name": "Adaptive Performance Tweaks",
-      "project": "adaptive-performance-tweaks",
-      "version": "12.10.0",
-      "versionId": "Bhn2ka1K",
+      "name": "Fabric API",
+      "project": "fabric-api",
+      "version": "0.141.6+1.21.11",
+      "versionId": "6qAuTtLR",
       "side": "server",
-      "file": "adaptive_performance_tweaks-forge-1.21.11-12.10.0.jar",
-      "aternosUrl": "https://aternos.org/addons/a/modrinthforge/kLawTYXp"
+      "file": "fabric-api-0.141.6+1.21.11.jar"
+    },
+    {
+      "name": "JourneyMap",
+      "project": "journeymap",
+      "version": "1.21.11-6.0.0+fabric",
+      "versionId": "6Np0S5K2",
+      "side": "server",
+      "file": "journeymap-fabric-1.21.11-6.0.0.jar"
+    },
+    {
+      "name": "Clumps",
+      "project": "clumps",
+      "version": "29.0.0.1",
+      "versionId": "OgBE8Rz4",
+      "side": "server",
+      "file": "Clumps-fabric-1.21.11-29.0.0.1.jar"
+    },
+    {
+      "name": "Extended ItemView (EIV)",
+      "project": "eiv",
+      "version": "6.1.0+1.21.11",
+      "versionId": "us2tguk9",
+      "side": "server",
+      "file": "eiv-fabric-6.1.0+1.21.11.jar"
+    },
+    {
+      "name": "Balm",
+      "project": "balm",
+      "version": "21.11.9.1+fabric-1.21.11",
+      "versionId": "5POKgjJn",
+      "side": "server",
+      "file": "balm-fabric-1.21.11-21.11.9.1.jar"
+    },
+    {
+      "name": "Waystones",
+      "project": "waystones",
+      "version": "21.11.9+fabric-1.21.11",
+      "versionId": "MydMW2TT",
+      "side": "server",
+      "file": "waystones-fabric-1.21.11-21.11.9.jar"
+    },
+    {
+      "name": "Player Emotes",
+      "project": "player-emotes",
+      "version": "2.0.1+1.21.11-fabric",
+      "versionId": "ETKRmzOX",
+      "side": "server",
+      "file": "playeremotes-fabric-2.0.1+1.21.11.jar"
     },
     {
       "name": "Skin Restorer",
       "project": "skinrestorer",
-      "version": "2.11.0+1.21.11-forge",
+      "version": "2.11.0+1.21.11-fabric",
+      "versionId": "S6TdblIH",
       "side": "server",
-      "file": "skinrestorer-2.11.0+1.21.11-forge.jar",
-      "aternosUrl": "https://aternos.org/addons/a/modrinthforge/ghrZDhGW",
-      "notes": "Permite skins desde Mojang, Ely.by o URL directa de imagen. El autor no admite sistemas de skins de terceros como TLauncher."
+      "file": "skinrestorer-2.11.0+1.21.11-fabric.jar",
+      "notes": "Skins en servidor; el autor no admite sistemas de skins de terceros como TLauncher."
+    },
+    {
+      "name": "Adaptive Performance Tweaks",
+      "project": "adaptive-performance-tweaks",
+      "version": "12.10.0",
+      "versionId": "hjBTT5Gn",
+      "side": "server",
+      "file": "adaptive_performance_tweaks-fabric-1.21.11-12.10.0.jar"
+    },
+    {
+      "name": "Lithium",
+      "project": "lithium",
+      "version": "mc1.21.11-0.21.4-fabric",
+      "versionId": "Ow7wA0kG",
+      "side": "server",
+      "file": "lithium-fabric-0.21.4+mc1.21.11.jar",
+      "notes": "Optimiza la lógica del juego; útil en cliente y servidor de forma independiente."
+    },
+    {
+      "name": "FerriteCore",
+      "project": "ferrite-core",
+      "version": "8.2.0-fabric",
+      "versionId": "Ii0gP3D8",
+      "side": "server",
+      "file": "ferritecore-8.2.0-fabric.jar",
+      "notes": "Reduce uso de memoria; se puede usar de forma independiente en cliente y servidor."
+    },
+    {
+      "name": "Krypton",
+      "project": "krypton",
+      "version": "0.2.10",
+      "versionId": "O9LmWYR7",
+      "side": "server",
+      "file": "krypton-0.2.10.jar",
+      "notes": "Optimiza la red. No garantiza aumento de FPS."
     }
   ]
 }
