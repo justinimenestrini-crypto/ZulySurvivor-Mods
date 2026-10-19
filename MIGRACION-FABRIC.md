@@ -2,7 +2,7 @@
 
 ## Estado
 
-El catálogo del PC está preparado para Fabric. El servidor de Aternos seguía en Forge 61.2.0 y en línea al revisar la migración. `server-mods.json` describe el destino previsto y no acredita una instalación realizada.
+El catálogo del PC está publicado para Fabric 1.21.11. El propietario cambió Aternos a Fabric Loader 0.19.5. Se instalaron y verificaron los 12 archivos de `server-mods.json` en la carpeta real del servidor; no quedaron JAR Forge. El arranque está pendiente de que el propietario acepte el EULA de Minecraft que Aternos muestra al iniciar. No se confirmó todavía un arranque correcto.
 
 Usar Java 21 y Fabric Loader 0.18.4 o superior; Aternos ofrece 0.19.5 como recomendada para Minecraft 1.21.11.
 
@@ -43,10 +43,10 @@ Se conservan JourneyMap, Extended ItemView, Balm, Waystones, Player Emotes e Inv
 
 Guardar un respaldo antes de cambiar el cargador. Revisar cualquier aviso de Aternos antes de aplicar una reinstalación. Instalar únicamente desde su catálogo, sin subir JAR ni eludir restricciones. Los mods de PC como Sodium e ImmediatelyFast no se instalan en Aternos.
 
-La lista `server-mods.json` contiene los archivos Fabric previstos. Hay que comprobar disponibilidad de cada versión en Aternos y verificar los JAR reales tras instalar. Mantener el servidor detenido durante la sustitución de archivos Forge por Fabric. Revisar el registro de inicio antes de invitar a los jugadores.
+La lista `server-mods.json` contiene los 12 archivos Fabric verificados en Aternos. Mantener el servidor detenido durante la sustitución de archivos Forge por Fabric. Revisar el registro de inicio antes de invitar a los jugadores.
 
 ## Validación realizada
 
 Se consultaron versiones estables de Modrinth para Fabric 1.21.11; se descargaron sin ejecutarlos los JAR seleccionados para comprobar SHA-512, `fabric.mod.json`, Java, Loader, dependencias y conflictos declarados. Se comprobó que el planificador de ModsEx resuelve 17 archivos únicos del catálogo y excluye la lista del servidor de las descargas del PC.
 
-Esto es validación estática; no equivale a una prueba de arranque de Minecraft ni a una medición de FPS en los equipos de los jugadores.
+También se comprobó la presencia de los 12 JAR del servidor en Aternos. El intento de inicio se detuvo en la aceptación del EULA y no se aceptaron términos en nombre del propietario. Estas comprobaciones no equivalen a un arranque correcto ni a una medición de FPS en los equipos de los jugadores.
