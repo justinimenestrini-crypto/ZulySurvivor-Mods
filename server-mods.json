@@ -8,10 +8,10 @@
     "java": ">=21"
   },
   "migrationNotes": "La reinstalación de software la realizó el propietario. Los archivos Forge ya no estaban en mods. No se restauró ningún respaldo ni se modificaron las opciones de autenticación.",
-  "revision": 4,
+  "revision": 5,
   "scope": "server-only",
-  "deploymentStatus": "installed-awaiting-eula",
-  "description": "Doce archivos Fabric verificados en Aternos. Inicio pendiente de aceptación del EULA de Minecraft por el propietario. No usar este catálogo para descargar mods en los PC.",
+  "deploymentStatus": "installed-startup-verified",
+  "description": "Doce archivos Fabric verificados en Aternos. Inicio correcto comprobado: servidor en línea con Fabric Loader 0.19.5. No usar este catálogo para descargar mods en los PC.",
   "mods": [
     {
       "name": "Fabric API",
@@ -126,5 +126,12 @@
       "aternosUrl": "https://aternos.org/addons/a/modrinthfabric/fQEb0iXm"
     }
   ],
-  "serverLoader": "0.19.5"
+  "serverLoader": "0.19.5",
+  "verification": {
+    "serverStarted": true,
+    "clientGameplayTested": false,
+    "fpsBenchmarked": false,
+    "world": "El registro indica creación de un mundo nuevo tras la reinstalación del propietario. El respaldo anterior no se restauró.",
+    "notes": "Lithium y Krypton cargaron. Adaptive Performance Tweaks desactiva automáticamente experience_orbs cuando está Clumps."
+  }
 }
